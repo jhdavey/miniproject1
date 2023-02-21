@@ -22,20 +22,27 @@ header {
   .text {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 20px auto 20px;
   }
 
   .image {
     height: 200px;
     display: block;
-    margin: auto;
-    border: solid 10px;
-    border-color: cadetblue;
+    margin: 20px auto 20px;
+    border: solid 5px;
+    border-color:black;
     border-radius: 3px;
+  }
+
+  #featuredimg {
+    border: solid;
+    border-color: cadetblue;
+    border-width: 10px;
   }
 
   #contact {
     background-color: aliceblue;
-    height: 1000px;
+    height: 150px;
     padding: 25px;
   }
 
